@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 
 # Configure color-scheme
 COLOR_SCHEME=dark # dark/light
@@ -22,13 +29,12 @@ alias purge='sudo apt purge --autoremove'
 
 # History
 HISTFILE=~/.zsh_history
-HISTCONTROL=ignoreboth
 HISTSIZE=5000
 SAVEHIST=5000
 
 # Prompt - Shows the Current Working Directory
-PROMPT='[%~]%# > '
-#RPROMPT='< [%T]'
+PROMPT='[%~] > '
+RPROMPT='< [%T]'
 
 # ZSH completion system
 autoload -Uz compinit
@@ -140,3 +146,7 @@ ZSH_HIGHLIGHT_STYLES[cursor-matchingbracket]=standout
 #source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source ~/.powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
