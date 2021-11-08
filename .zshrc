@@ -1,40 +1,39 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
+# Sort
+gsettings set org.gnome.shell app-picker-layout "[]"
 
 # Configure color-scheme
 COLOR_SCHEME=dark # dark/light
 
+
 # --------------------------------- ALIASES -----------------------------------
-alias ..='cd ..'
+#alias ..='cd ..'
 alias cp='cp -v'
 alias rm='rm -I'
 alias mv='mv -iv'
+alias ln='ln -sriv'
+alias xclip='xclip -selection c'
 
+alias install='sudo dnf --color=always install'
+alias remove='sudo dnf --color=always remove'
+alias autoremove='sudo dnf --color=always autoremove'
 ### Colorize commands
-alias ls='ls -a --color=auto'
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-alias diff='diff --color=auto'
-alias ip='ip --color=auto'
-alias update='sudo apt update'
-alias upgrade='sudo apt upgrade'
-alias install='sudo apt install'
-alias purge='sudo apt purge --autoremove'
+alias ls='ls --color=always'
+alias grep='grep --color=always'
+alias fgrep='fgrep --color=always'
+alias egrep='egrep --color=always'
+alias diff='diff --color=always'
+alias ip='ip --color=always'
+alias dnf='dnf --color=always'
 
-# History
-HISTFILE=~/.zsh_history
+### LS & TREE
+alias ll='ls -la'
+alias la='ls -A'
+alias l='ls -F'
+
+HISTFILE=~/.history
 HISTSIZE=5000
 SAVEHIST=5000
 
-# Prompt - Shows the Current Working Directory
-PROMPT='[%~] > '
-RPROMPT='< [%T]'
 
 # ZSH completion system
 autoload -Uz compinit
@@ -43,7 +42,7 @@ zstyle ':completion:*:*:*:*:*' menu select
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' auto-description 'specify: %d'
-zstyle ':completion:*' completer _expand _complete _correct
+zstyle ':completion:*' completer _expand _complete
 zstyle ':completion:*' format 'Completing %d'
 zstyle ':completion:*' group-name ''
 zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
@@ -53,34 +52,10 @@ zstyle ':completion:*' use-compctl false
 zstyle ':completion:*' verbose true
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
-# Key bindings
-#bindkey -v
-#bindkey '^U' backward-kill-line
-#bindkey '^[[2~' overwrite-mode
-#bindkey '^[[3~' delete-char
-#bindkey '^[[H' beginning-of-line
-#bindkey '^[[1~' beginning-of-line
-#bindkey '^[[F' end-of-line
-#bindkey '^[[4~' end-of-line
-#bindkey '^[[1;5C' forward-word
-#bindkey '^[[1;5D' backward-word
-#bindkey '^[[3;5~' kill-word
-#bindkey '^[[5~' beginning-of-buffer-or-history
-#bindkey '^[[6~' end-of-buffer-or-history
-#bindkey '^[[Z' undo
-#bindkey ' ' magic-space
-
 # Prompt
-#PROMPT=$'%F{%(#.blue.green)}┌──(%B%F{%(#.red.blue)}%n@%m%b%F{%(#.blue.green)})-[%B%F{reset}%(6~.%-1~/…/%4~.%5~)%b%F{%(#.blue.green)}]\n└─%B%(#.%F{red}#.%F{blue}$)%b%F{reset} '
-#RPROMPT=$'%(?.. %? %F{red}%Bx%b%F{reset})%(1j. %j %F{yellow}%Bbg %b%F{reset}.)'
-
+PROMPT=$'%B[%~] %# > %b'
+RPROMPT=$'<[%T]'
 # ----------------------------------- MISC -----------------------------------
-#export VISUAL=vim
-#export EDITOR=$VISUAL
-
-# enable terminal linewrap
-#setterm -linewrap on 2> /dev/null
-
 # colorize man pages
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
@@ -94,12 +69,14 @@ export LESSHISTFILE=-
 # colorize ls
 [ -x /usr/bin/dircolors ] && eval "$(dircolors -b)"
 
+# ------------------------------- ZSH PLUGINS ---------------------------------
+
 # ZSH Autosuggestions
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 
 # ZSH Syntax Highlighting
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
 ZSH_HIGHLIGHT_STYLES[default]=none
 ZSH_HIGHLIGHT_STYLES[unknown-token]=fg=red,bold
@@ -142,11 +119,3 @@ ZSH_HIGHLIGHT_STYLES[bracket-level-3]=fg=magenta,bold
 ZSH_HIGHLIGHT_STYLES[bracket-level-4]=fg=yellow,bold
 ZSH_HIGHLIGHT_STYLES[bracket-level-5]=fg=cyan,bold
 ZSH_HIGHLIGHT_STYLES[cursor-matchingbracket]=standout
-# POWERLEVEL
-#source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-#[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source ~/.powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

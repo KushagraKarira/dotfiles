@@ -1,0 +1,9 @@
+[Default Applications]
+x-content/audio-cdda=rhythmbox-device.desktop
+x-content/video-dvd=org.gnome.Totem.desktop
+x-content/audio-player=rhythmbox-device.desktop
+
+[Added Associations]
+x-content/audio-cdda=rhythmbox-device.desktop;
+x-content/video-dvd=org.gnome.Totem.desktop;
+x-content/audio-player=rhythmbox-device.desktop;
