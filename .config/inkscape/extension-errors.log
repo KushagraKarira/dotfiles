@@ -10,3 +10,15 @@ Dependency:
 	location: path
 	string: pdflatex
 
+Extension "Optimized PNG" failed to load because a dependency was not met.
+Dependency:
+	type: executable
+	location: path
+	string: optipng
+
+Extension "GIMP XCF" failed to load because a dependency was not met.
+Dependency:
+	type: executable
+	location: path
+	string: gimp
+

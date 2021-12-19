@@ -1,12 +1,13 @@
 [user]
-	email = 
-	name = 
+	email = kushagrakarira@gmail.com
+	name = Kushagra Karira
+	signingkey = 1F03DAF93C576E12
 
 [color]
-	diff = auto
-	status = auto
-	branch = auto
-	interactive = auto
+	diff = true
+	status = true
+	branch = true
+	interactive = true
 	ui = true
 	pager = true
 [credential]
@@ -17,3 +18,5 @@
 	attributesfile = ~/.gitattributes
 [diff "image"]
 	command = compare $2 $1 png:- | montage -geometry +4+4 $2 - $1 png:- | display -title \"$1\" -
+[commit]
+	gpgsign = true

@@ -1,29 +1,61 @@
-# Sort
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+# Sort applications alphabetically in gnome 40+
 gsettings set org.gnome.shell app-picker-layout "[]"
 
 # Configure color-scheme
 COLOR_SCHEME=dark # dark/light
 
+### TOP
+command -v htop > /dev/null && alias top='htop'
+command -v gotop > /dev/null && alias top='gotop -p $([ "$COLOR_SCHEME" = "light" ] && echo "-c default-dark")'
+command -v ytop > /dev/null && alias top='ytop -p $([ "$COLOR_SCHEME" = "light" ] && echo "-c default-dark")'
+command -v btm > /dev/null && alias top='btm $([ "$COLOR_SCHEME" = "light" ] && echo "--color default-light")'
+# themes for light/dark color-schemes inside ~/.config/bashtop; Press ESC to open the menu and change the theme
+command -v bashtop > /dev/null && alias top='bashtop'
+command -v bpytop > /dev/null && alias top='bpytop'
 
 # --------------------------------- ALIASES -----------------------------------
 #alias ..='cd ..'
 alias cp='cp -v'
 alias rm='rm -I'
 alias mv='mv -iv'
-alias ln='ln -sriv'
-alias xclip='xclip -selection c'
+alias ls='ls -A --color=always'
+alias download='aria2c -x 16 -s 16'
 
-alias install='sudo dnf --color=always install'
-alias remove='sudo dnf --color=always remove'
-alias autoremove='sudo dnf --color=always autoremove'
+## Package Manager
+# Fedora
+#alias install='sudo dnf install'
+#alias remove='sudo dnf remove'
+#alias autoremove='sudo dnf autoremove'
+#alias update='sudo dnf update'
+#alias search='dnf search'
+#alias info='dnf info'
+
+#Arch
+#alias update='sudo pacman -Syu'
+
+#Debian
+alias install='sudo apt install'
+alias update='sudo apt update && sudo apt upgrade'
+alias remove='sudo apt purge --autoremove'
+alias autoremove='sudo apt autoremove --purge'
+alias search='apt search'
+alias rdep='apt-cache rdepends --installed'
+alias lspkg='apt list --installed | grep '
+alias info='apt show -a'
+
 ### Colorize commands
-alias ls='ls --color=always'
 alias grep='grep --color=always'
 alias fgrep='fgrep --color=always'
 alias egrep='egrep --color=always'
 alias diff='diff --color=always'
 alias ip='ip --color=always'
-alias dnf='dnf --color=always'
 
 ### LS & TREE
 alias ll='ls -la'
@@ -54,7 +86,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 # Prompt
 PROMPT=$'%B[%~] %# > %b'
-RPROMPT=$'<[%T]'
+RPROMPT=$'%B<[%T]%f%b'
 # ----------------------------------- MISC -----------------------------------
 # colorize man pages
 export LESS_TERMCAP_mb=$'\e[1;32m'
@@ -65,10 +97,16 @@ export LESS_TERMCAP_so=$'\e[01;33m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
 export LESSHISTFILE=-
+export GROFF_NO_SGR=1
 
 # colorize ls
 [ -x /usr/bin/dircolors ] && eval "$(dircolors -b)"
 
+# Get color support for 'less'
+export LESS="--RAW-CONTROL-CHARS"
+
+# Use colors for less, man, etc.
+[[ -f ~/.LESS_TERMCAP ]] && . ~/.LESS_TERMCAP
 # ------------------------------- ZSH PLUGINS ---------------------------------
 
 # ZSH Autosuggestions
@@ -119,3 +157,7 @@ ZSH_HIGHLIGHT_STYLES[bracket-level-3]=fg=magenta,bold
 ZSH_HIGHLIGHT_STYLES[bracket-level-4]=fg=yellow,bold
 ZSH_HIGHLIGHT_STYLES[bracket-level-5]=fg=cyan,bold
 ZSH_HIGHLIGHT_STYLES[cursor-matchingbracket]=standout
+source ~/.powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

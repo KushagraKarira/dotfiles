@@ -2,8 +2,35 @@
 x-content/audio-cdda=rhythmbox-device.desktop
 x-content/video-dvd=org.gnome.Totem.desktop
 x-content/audio-player=rhythmbox-device.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/chrome=userapp-Firefox-XJLAC1.desktop
+text/html=chromium-devel.desktop
+application/x-extension-htm=userapp-Firefox-XJLAC1.desktop
+application/x-extension-html=userapp-Firefox-XJLAC1.desktop
+application/x-extension-shtml=userapp-Firefox-XJLAC1.desktop
+application/xhtml+xml=org.gnome.Epiphany.desktop
+application/x-extension-xhtml=userapp-Firefox-XJLAC1.desktop
+application/x-extension-xht=userapp-Firefox-XJLAC1.desktop
+text/x-arduino=arduino-arduinoide.desktop
+application/x-xz-compressed-tar=org.gnome.Nautilus.desktop
+image/svg+xml=org.inkscape.Inkscape.desktop
+x-scheme-handler/webcal=chromium-devel.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
 
 [Added Associations]
 x-content/audio-cdda=rhythmbox-device.desktop;
 x-content/video-dvd=org.gnome.Totem.desktop;
 x-content/audio-player=rhythmbox-device.desktop;
+x-scheme-handler/http=userapp-Firefox-XJLAC1.desktop;org.gnome.Epiphany.desktop;
+x-scheme-handler/https=userapp-Firefox-XJLAC1.desktop;org.gnome.Epiphany.desktop;
+text/html=org.gnome.gedit.desktop;chromium.desktop;chromium-browser-unstable.desktop;org.gnome.Epiphany.desktop;google-chrome.desktop;userapp-Firefox-XJLAC1.desktop;
+application/xhtml+xml=userapp-Firefox-XJLAC1.desktop;org.gnome.Epiphany.desktop;
+image/x-eps=org.inkscape.Inkscape.desktop;
+image/png=org.inkscape.Inkscape.desktop;
+application/x-xz-compressed-tar=org.gnome.Nautilus.desktop;
+application/pdf=org.inkscape.Inkscape.desktop;libreoffice-writer.desktop;
+image/svg+xml=org.gnome.gedit.desktop;org.inkscape.Inkscape.desktop;
+image/jpeg=org.inkscape.Inkscape.desktop;
+application/vnd.debian.binary-package=org.gnome.Nautilus.desktop;

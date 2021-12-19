@@ -5,8 +5,7 @@
   <group
      id="window">
     <group
-       id="task"
-       taskset="0" />
+       id="task" />
     <group
        id="menu"
        state="1" />
@@ -124,14 +123,11 @@
       <eventcontext
          id="rect"
          style="fill:blue;"
-         usecurrent="1"
-         width="3677.81"
-         height="3677.81" />
+         usecurrent="1" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
-         usecurrent="1"
-         persp="perspective992">
+         usecurrent="1">
         <side
            id="XYfront"
            style="fill:#8686bf;stroke:none;stroke-linejoin:round;"
@@ -162,24 +158,17 @@
          style="fill:red;"
          end="0"
          start="0"
-         usecurrent="1"
-         rx="2012.89"
-         ry="2012.89" />
+         usecurrent="1" />
       <eventcontext
          id="star"
-         magnitude="3"
+         magnitude="5"
          style="fill:yellow;"
-         usecurrent="1"
-         proportion="0.6"
-         isflatsided="1"
-         rounded="0"
-         randomized="0" />
+         usecurrent="1" />
       <eventcontext
          id="spiral"
          style="fill:none;stroke:black"
-         expansion="1.66"
-         usecurrent="0"
-         revolution="38.7" />
+         expansion="1"
+         usecurrent="0" />
     </group>
     <group
        id="freehand"
@@ -190,8 +179,7 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         average_all_sketches="1"
-         pressure="0" />
+         average_all_sketches="1" />
       <eventcontext
          id="pen"
          mode="drag"
@@ -318,9 +306,7 @@
     <eventcontext
        id="lpetool"
        mode="drag"
-       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
-       show_bbox="1" />
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;" />
     <eventcontext
        id="text"
        usecurrent="0"
@@ -345,8 +331,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="3206.41"
-       y="2488.82"
+       x="0"
+       y="0"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -359,12 +345,7 @@
        fidelity="0.5"
        usepressure="1"
        style="fill:red;stroke:none;"
-       usecurrent="0"
-       doh="1"
-       dos="1"
-       dol="1"
-       doo="1"
-       mode="0" />
+       usecurrent="0" />
     <eventcontext
        id="spray"
        selcue="1"
@@ -382,9 +363,7 @@
        selcue="1" />
     <eventcontext
        id="mesh"
-       selcue="1"
-       edit_fill="1"
-       edit_stroke="0" />
+       selcue="1" />
     <eventcontext
        id="zoom"
        selcue="1"
@@ -402,15 +381,11 @@
     <eventcontext
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
-       selcue="1"
-       curvature="0" />
+       selcue="1" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
        usecurrent="1" />
-    <group
-       id="measure"
-       fontsize="10" />
   </group>
   <group
      id="palette">
@@ -536,20 +511,18 @@
      id="embedded">
     <group
        id="swatches"
-       panel_size="0"
+       panel_size="1"
        panel_mode="1"
-       panel_ratio="0"
+       panel_ratio="100"
        panel_wrap="0"
-       palette="GNOME HIG Colors"
-       panel_border="0" />
+       palette="Inkscape default" />
   </group>
   <group
      id="dialogs">
     <group
        id="toolbox" />
     <group
-       id="fillstroke"
-       page="1" />
+       id="fillstroke" />
     <group
        id="filtereffects" />
     <group
@@ -558,8 +531,7 @@
        id="transformation"
        applyseparately="0" />
     <group
-       id="align"
-       align-to="0" />
+       id="align" />
     <group
        id="xml"
        h="500"
@@ -576,8 +548,7 @@
        state="1" />
     <group
        id="preferences"
-       state="1"
-       page="24" />
+       state="1" />
     <group
        id="gradienteditor" />
     <group
@@ -588,17 +559,16 @@
        append_extension="1"
        path="">
       <group
-         id="exportarea"
-         value="page" />
+         id="exportarea" />
       <group
          id="defaultxdpi" />
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default=""
        append_extension="1"
        enable_preview="1"
-       path="/home/kushagra"
+       path=""
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -613,19 +583,16 @@
     <group
        id="import"
        enable_preview="1"
-       path="/home/kushagra/Projects/design/Logo/Anetos/"
-       ask="0"
-       ask_svg="0"
-       link="embed"
-       scale="auto"
-       import_mode_svg="include"
-       forcexdpi="0" />
+       path=""
+       ask="1"
+       ask_svg="1"
+       link="link"
+       scale="optimizeSpeed" />
     <group
        id="debug"
        redirect="0" />
     <group
-       id="clonetiler"
-       dotrace="0" />
+       id="clonetiler" />
     <group
        id="gridtiler" />
     <group
@@ -669,8 +636,7 @@
        add-label-comments="0" />
   </group>
   <group
-     id="options"
-     onimport="0">
+     id="options">
     <group
        id="renderingcache"
        size="512" />
@@ -742,7 +708,7 @@
        value="1.414213562" />
     <group
        id="zoomcorrection"
-       value="0.9574"
+       value="1.0"
        unit="mm" />
     <group
        id="keyscroll"
@@ -817,7 +783,7 @@
        value="0" />
     <group
        id="stickyzoom"
-       value="1" />
+       value="0" />
     <group
        id="selcue"
        value="2" />
@@ -903,7 +869,7 @@
        value="1" />
     <group
        id="iconrender"
-       named_nodelay="1" />
+       named_nodelay="0" />
     <group
        id="autosave"
        enable="1"
@@ -936,34 +902,12 @@
        id="workarounds"
        colorsontop="0"
        partialdynamic="0" />
-    <group
-       id="boot"
-       theme="symbolic"
-       enabled="0">
-      <group
-         id="shown"
-         ver1.1.1="1" />
-    </group>
-    <group
-       id="rendering" />
-    <group
-       id="cleanupswatches"
-       value="1" />
-    <group
-       id="threading"
-       numthreads="8" />
-    <group
-       id="font"
-       unitType="2" />
   </group>
   <group
-     id="extensions"
-     org.inkscape.input.svg.scale="auto"
-     org.inkscape.input.svg.do_not_ask="1"
-     org.inkscape.input.gdkpixbuf.jpg.do_not_ask="1" />
+     id="extensions" />
   <group
      id="desktop"
-     style="fill:none;stroke-width:86.92913386;-inkscape-font-specification:'Inter Medium';font-family:Inter;font-weight:500;font-size:42.66666667px;stroke:#000000;stroke-linecap:round">
+     style="">
     <group
        width="640"
        height="480"
@@ -995,7 +939,7 @@
     <group
        id="tools"
        icononly="1"
-       small="1" />
+       small="0" />
   </group>
   <group
      id="iconpreview"
@@ -1068,41 +1012,4 @@
   <group
      id="ui"
      language="" />
-  <group
-     id="theme"
-     defaultPreferDarkTheme="0"
-     defaultGtkTheme="Adwaita-dark"
-     defaultIconTheme="Adwaita"
-     symbolicIcons="1"
-     preferDarkTheme="1"
-     darkTheme="1"
-     symbolicDefaultBaseColors="1"
-     symbolicDefaultHighColors="1"
-     menuIcons_canvas="0"
-     menuIcons_layers="0"
-     menuIcons_objects="0"
-     gtkTheme="Adwaita"
-     iconTheme="hicolor">
-    <group
-       id="multicolor"
-       symbolicBaseColor="3958107135"
-       symbolicSuccessColor="10029823"
-       symbolicWarningColor="4279865599"
-       symbolicErrorColor="10086143" />
-    <group
-       id="Adwaita"
-       symbolicBaseColor="4008635647"
-       symbolicSuccessColor="648766207"
-       symbolicWarningColor="4118348031"
-       symbolicErrorColor="3422552319" />
-    <group
-       id="hicolor"
-       symbolicBaseColor="4008635647"
-       symbolicSuccessColor="10029823"
-       symbolicWarningColor="4279865599"
-       symbolicErrorColor="10086143" />
-  </group>
-  <group
-     id="live_effects"
-     flattening="0" />
 </inkscape>
