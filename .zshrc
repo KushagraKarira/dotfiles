@@ -7,6 +7,7 @@
 
 # Sort applications alphabetically in gnome 40+
 gsettings set org.gnome.shell app-picker-layout "[]"
+
 # Configure color-scheme
 COLOR_SCHEME=dark # dark/light
 
@@ -16,42 +17,51 @@ alias ~='cd ~'
 alias cp='cp -v'
 alias rm='rm -I'
 alias mv='mv -iv'
-alias download='aria2c -x 16 -s 16'
+alias ln='ln -sriv'
+alias xclip='xclip -selection c'
+command -v vim > /dev/null && alias vi='vim'
+alias dw='aria2c -s 16 -x 16 -Z --summary-interval=0'
 alias changelog="xargs -I% -- zless /usr/share/doc/%/changelog.Debian.gz <<<"
-
+alias Cherry="curl https://api.openai.com/v1/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: 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" \
+  -d '{ "model": "text-davinci-003", "prompt": "Hi", "temperature": 1.0, "max_tokens": 3900 }'"
 ## Package Manager
-# Fedora
-#alias install='sudo dnf install'
-#alias remove='sudo dnf remove'
-#alias autoremove='sudo dnf autoremove'
-#alias update='sudo dnf update'
-#alias search='dnf search'
-#alias info='dnf info'
-
-#Arch
-#alias update='sudo pacman -Syu'
-
 #Debian
 alias install='sudo apt install'
 alias update='sudo apt update && sudo apt upgrade'
 alias remove='sudo apt purge --autoremove'
 alias autoremove='sudo apt autoremove --purge'
 alias search='apt search'
+alias dep='apt-cache depends --installed'
 alias rdep='apt-cache rdepends --installed'
-alias lspkg='apt list --installed | grep '
+alias list='apt list --installed | grep '
 alias info='apt show -a'
+alias new='apt-get changelog'
 alias hold='sudo apt-mark hold'
 alias unhold='sudo apt-mark unhold'
 
 
 ### Colorize commands
-alias grep='grep --color=always'
-alias fgrep='fgrep --color=always'
-alias egrep='egrep --color=always'
-alias diff='diff --color=always'
-alias ip='ip --color=always'
-alias ls='ls -A --color=always'
+alias ls='ls --color=auto --all -F'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias diff='diff --color=auto'
+alias ip='ip --color=auto'
+alias pacman='pacman --color=auto'
 
+### TOP
+command -v htop > /dev/null && alias top='htop'
+command -v gotop > /dev/null && alias top='gotop -p $([ "$COLOR_SCHEME" = "light" ] && echo "-c default-dark")'
+command -v ytop > /dev/null && alias top='ytop -p $([ "$COLOR_SCHEME" = "light" ] && echo "-c default-dark")'
+command -v btm > /dev/null && alias top='btm $([ "$COLOR_SCHEME" = "light" ] && echo "--color default-light")'
+
+# themes for light/dark color-schemes inside ~/.config/bashtop; Press ESC to open the menu and change the theme
+command -v bashtop > /dev/null && alias top='bashtop'
+command -v bpytop > /dev/null && alias top='bpytop'
+
+### History
 HISTFILE=~/.history
 HISTSIZE=5000
 SAVEHIST=5000
@@ -161,3 +171,4 @@ ZSH_HIGHLIGHT_STYLES[cursor-matchingbracket]=standout
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 #[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# source ~/.powerlevel10k/powerlevel10k.zsh-theme

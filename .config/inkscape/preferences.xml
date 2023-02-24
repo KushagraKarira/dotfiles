@@ -1,1108 +1,342 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<inkscape
-   version="1"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
-  <group
-     id="window">
-    <group
-       id="task"
-       taskset="0" />
-    <group
-       id="menu"
-       state="1" />
-    <group
-       id="commands"
-       state="1" />
-    <group
-       id="snaptoolbox"
-       state="1" />
-    <group
-       id="toppanel"
-       state="1" />
-    <group
-       id="toolbox"
-       state="1" />
-    <group
-       id="statusbar"
-       state="1" />
-    <group
-       id="panels"
-       state="1" />
-    <group
-       id="rulers"
-       state="1" />
-    <group
-       id="scrollbars"
-       state="1" />
+<inkscape version="1">
+  <group id="window" interface_mode="1">
+    <group id="task" taskset="0" />
+    <group id="menu" state="1" />
+    <group id="commands" state="0" />
+    <group id="snaptoolbox" state="1" />
+    <group id="toppanel" state="1" />
+    <group id="toolbox" state="1" />
+    <group id="statusbar" state="1" />
+    <group id="panels" state="1" />
+    <group id="rulers" state="1" />
+    <group id="scrollbars" state="1" />
   </group>
-  <group
-     id="fullscreen">
-    <group
-       id="task" />
-    <group
-       id="menu"
-       state="1" />
-    <group
-       id="commands"
-       state="1" />
-    <group
-       id="snaptoolbox"
-       state="1" />
-    <group
-       id="toppanel"
-       state="1" />
-    <group
-       id="toolbox"
-       state="1" />
-    <group
-       id="statusbar"
-       state="1" />
-    <group
-       id="panels"
-       state="1" />
-    <group
-       id="rulers"
-       state="1" />
-    <group
-       id="scrollbars"
-       state="1" />
+  <group id="fullscreen">
+    <group id="task" />
+    <group id="menu" state="1" />
+    <group id="commands" state="1" />
+    <group id="snaptoolbox" state="1" />
+    <group id="toppanel" state="1" />
+    <group id="toolbox" state="1" />
+    <group id="statusbar" state="1" />
+    <group id="panels" state="1" />
+    <group id="rulers" state="0" />
+    <group id="scrollbars" state="0" />
   </group>
-  <group
-     id="focus">
-    <group
-       id="task" />
-    <group
-       id="menu"
-       state="0" />
-    <group
-       id="commands"
-       state="0" />
-    <group
-       id="snaptoolbox"
-       state="0" />
-    <group
-       id="toppanel"
-       state="0" />
-    <group
-       id="toolbox"
-       state="0" />
-    <group
-       id="statusbar"
-       state="0" />
-    <group
-       id="panels"
-       state="0" />
-    <group
-       id="rulers"
-       state="0" />
-    <group
-       id="scrollbars"
-       state="0" />
+  <group id="focus">
+    <group id="task" />
+    <group id="menu" state="0" />
+    <group id="commands" state="0" />
+    <group id="snaptoolbox" state="0" />
+    <group id="toppanel" state="0" />
+    <group id="toolbox" state="0" />
+    <group id="statusbar" state="0" />
+    <group id="panels" state="0" />
+    <group id="rulers" state="0" />
+    <group id="scrollbars" state="0" />
   </group>
-  <group
-     id="template">
-    <sodipodi:namedview
-       id="base"
-       pagecolor="#ffffff"
-       pageopacity="0.0"
-       pagecheckerboard="0"
-       bordercolor="#666666"
-       borderopacity="1.0"
-       objecttolerance="10.0"
-       gridtolerance="10.0"
-       guidetolerance="10.0"
-       pageshadow="2" />
+  <group id="template">
+    <group id="base" pagecolor="#ffffff" deskcolor="#d1d1d1" pageopacity="0.0" pagecheckerboard="0" bordercolor="#000000" borderopacity="0.25" objecttolerance="10.0" gridtolerance="10.0" guidetolerance="10.0" pageshadow="2" />
   </group>
-  <group
-     id="tools"
-     bounding_box="0">
-    <group
-       id="shapes"
-       style="fill-rule:evenodd;"
-       selcue="1"
-       gradientdrag="1">
-      <eventcontext
-         id="rect"
-         style="fill:blue;"
-         usecurrent="1"
-         width="3677.81"
-         height="3677.81" />
-      <eventcontext
-         id="3dbox"
-         style="stroke:none;stroke-linejoin:round;"
-         usecurrent="1"
-         persp="perspective992">
-        <side
-           id="XYfront"
-           style="fill:#8686bf;stroke:none;stroke-linejoin:round;"
-           usecurrent="0" />
-        <side
-           id="XYrear"
-           style="fill:#e9e9ff;stroke:none;stroke-linejoin:round;"
-           usecurrent="0" />
-        <side
-           id="XZtop"
-           style="fill:#4d4d9f;stroke:none;stroke-linejoin:round;"
-           usecurrent="0" />
-        <side
-           id="XZbottom"
-           style="fill:#afafde;stroke:none;stroke-linejoin:round;"
-           usecurrent="0" />
-        <side
-           id="YZright"
-           style="fill:#353564;stroke:none;stroke-linejoin:round;"
-           usecurrent="0" />
-        <side
-           id="YZleft"
-           style="fill:#d7d7ff;stroke:none;stroke-linejoin:round;"
-           usecurrent="0" />
+  <group id="tools" bounding_box="0">
+    <group id="shapes" style="fill-rule:evenodd;" selcue="1" gradientdrag="1">
+      <eventcontext id="rect" style="fill:blue;" usecurrent="1" width="793.700787401575" height="1122.51968503937" ry="0" />
+      <eventcontext id="3dbox" style="stroke:none;stroke-linejoin:round;" usecurrent="1" persp="perspective117">
+        <side id="XYfront" style="fill:#8686bf;stroke:none;stroke-linejoin:round;" usecurrent="0" />
+        <side id="XYrear" style="fill:#e9e9ff;stroke:none;stroke-linejoin:round;" usecurrent="0" />
+        <side id="XZtop" style="fill:#4d4d9f;stroke:none;stroke-linejoin:round;" usecurrent="0" />
+        <side id="XZbottom" style="fill:#afafde;stroke:none;stroke-linejoin:round;" usecurrent="0" />
+        <side id="YZright" style="fill:#353564;stroke:none;stroke-linejoin:round;" usecurrent="0" />
+        <side id="YZleft" style="fill:#d7d7ff;stroke:none;stroke-linejoin:round;" usecurrent="0" />
       </eventcontext>
-      <eventcontext
-         id="arc"
-         style="fill:red;"
-         end="0"
-         start="0"
-         usecurrent="1"
-         rx="2012.89"
-         ry="2012.89" />
-      <eventcontext
-         id="star"
-         magnitude="3"
-         style="fill:yellow;"
-         usecurrent="1"
-         proportion="0.6"
-         isflatsided="1"
-         rounded="0"
-         randomized="0" />
-      <eventcontext
-         id="spiral"
-         style="fill:none;stroke:black"
-         expansion="1.66"
-         usecurrent="0"
-         revolution="38.7" />
+      <eventcontext id="arc" style="fill:red;" end="0" start="0" usecurrent="1" rx="289.594707338828" ry="206.607834222751" arc_type="0" />
+      <eventcontext id="star" magnitude="6" style="fill:yellow;" usecurrent="1" proportion="0.5" isflatsided="1" rounded="0" />
+      <eventcontext id="spiral" style="fill:none;stroke:black" expansion="1" usecurrent="0" />
     </group>
-    <group
-       id="freehand"
-       style="fill:none;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt;">
-      <eventcontext
-         id="pencil"
-         tolerance="4.0"
-         selcue="1"
-         style="stroke-width:1px;"
-         usecurrent="0"
-         average_all_sketches="1"
-         pressure="0" />
-      <eventcontext
-         id="pen"
-         mode="drag"
-         selcue="1"
-         style="stroke-width:1px;"
-         usecurrent="0" />
+    <group id="freehand" style="fill:none;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt;">
+      <eventcontext id="pencil" tolerance="4.0" selcue="1" style="stroke-width:1px;" usecurrent="0" average_all_sketches="1" pressure="0" />
+      <eventcontext id="pen" mode="drag" selcue="1" style="stroke-width:1px;" usecurrent="0" />
     </group>
-    <eventcontext
-       id="calligraphic"
-       style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       mass="2"
-       angle="30"
-       width="15.118"
-       thinning="10"
-       flatness="90"
-       cap_rounding="0.0"
-       usecurrent="1"
-       tracebackground="0"
-       usepressure="1"
-       usetilt="0"
-       keep_selected="1"
-       abs_width="1"
-       unit="mm">
-      <group
-         id="preset">
-        <group
-           id="cp0"
-           name="Dip pen"
-           mass="2"
-           wiggle="0.0"
-           angle="30.0"
-           thinning="10"
-           tremor="0.0"
-           flatness="90"
-           cap_rounding="0.0"
-           tracebackground="0"
-           usepressure="1"
-           usetilt="1" />
-        <group
-           id="cp1"
-           name="Marker"
-           mass="2"
-           wiggle="0.0"
-           angle="90.0"
-           thinning="0.0"
-           tremor="0.0"
-           flatness="0.0"
-           cap_rounding="1.0"
-           tracebackground="0"
-           usepressure="0"
-           usetilt="0" />
-        <group
-           id="cp2"
-           name="Brush"
-           mass="2"
-           wiggle="25"
-           angle="45.0"
-           thinning="-40"
-           tremor="0.0"
-           flatness="16"
-           cap_rounding=".1"
-           tracebackground="0"
-           usepressure="1"
-           usetilt="1" />
-        <group
-           id="cp3"
-           name="Wiggly"
-           usetilt="1"
-           tracebackground="0"
-           usepressure="1"
-           cap_rounding="0.1"
-           flatness="16"
-           tremor="18"
-           thinning="-30"
-           angle="30"
-           wiggle="50"
-           mass="0" />
-        <group
-           id="cp4"
-           name="Splotch"
-           width="100"
-           usetilt="1"
-           tracebackground="0"
-           usepressure="0"
-           cap_rounding="1"
-           flatness="0"
-           tremor="10"
-           thinning="30"
-           angle="30"
-           wiggle="0"
-           mass="0" />
-        <group
-           id="cp5"
-           name="Tracing"
-           width="50"
-           mass="0"
-           wiggle="0.0"
-           angle="0.0"
-           thinning="0.0"
-           tremor="0.0"
-           flatness="0"
-           cap_rounding="0.0"
-           tracebackground="1"
-           usepressure="1"
-           usetilt="1" />
+    <eventcontext id="calligraphic" style="fill:black;fill-opacity:1;fill-rule:nonzero;stroke:none;" mass="2" angle="30" width="15.118" thinning="10" flatness="90" cap_rounding="0.0" usecurrent="1" tracebackground="0" usepressure="1" usetilt="0" keep_selected="1" abs_width="1" unit="mm">
+      <group id="preset">
+        <group id="cp0" name="Dip pen" mass="2" wiggle="0.0" angle="30.0" thinning="10" tremor="0.0" flatness="90" cap_rounding="0.0" tracebackground="0" usepressure="1" usetilt="1" />
+        <group id="cp1" name="Marker" mass="2" wiggle="0.0" angle="90.0" thinning="0.0" tremor="0.0" flatness="0.0" cap_rounding="1.0" tracebackground="0" usepressure="0" usetilt="0" />
+        <group id="cp2" name="Brush" mass="2" wiggle="25" angle="45.0" thinning="-40" tremor="0.0" flatness="16" cap_rounding=".1" tracebackground="0" usepressure="1" usetilt="1" />
+        <group id="cp3" name="Wiggly" usetilt="1" tracebackground="0" usepressure="1" cap_rounding="0.1" flatness="16" tremor="18" thinning="-30" angle="30" wiggle="50" mass="0" />
+        <group id="cp4" name="Splotch" width="100" usetilt="1" tracebackground="0" usepressure="0" cap_rounding="1" flatness="0" tremor="10" thinning="30" angle="30" wiggle="0" mass="0" />
+        <group id="cp5" name="Tracing" width="50" mass="0" wiggle="0.0" angle="0.0" thinning="0.0" tremor="0.0" flatness="0" cap_rounding="0.0" tracebackground="1" usepressure="1" usetilt="1" />
       </group>
     </eventcontext>
-    <eventcontext
-       id="eraser"
-       mode="1"
-       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       mass="0.02"
-       drag="1"
-       angle="30"
-       width="10"
-       thinning="0.1"
-       flatness="0.0"
-       cap_rounding="1.4"
-       usecurrent="0"
-       tracebackground="0"
-       usepressure="1"
-       usetilt="0"
-       selcue="1" />
-    <eventcontext
-       id="lpetool"
-       mode="drag"
-       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
-       show_bbox="1" />
-    <eventcontext
-       id="text"
-       usecurrent="0"
-       gradientdrag="1"
-       font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
-       show_sample_in_list="1"
-       use_svg2="1"
-       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;"
-       selcue="1" />
-    <eventcontext
-       id="nodes"
-       selcue="1"
-       gradientdrag="1"
-       pathflash_enabled="1"
-       pathflash_unselected="0"
-       pathflash_timeout="500"
-       show_handles="1"
-       show_outline="0"
-       sculpting_profile="1"
-       single_node_transform_handles="0"
-       show_transform_handles="0"
-       live_outline="1"
-       live_objects="1"
-       show_helperpath="0"
-       x="3206.41"
-       y="2488.82"
-       edit_clipping_paths="0"
-       edit_masks="0" />
-    <eventcontext
-       id="tweak"
-       selcue="0"
-       gradientdrag="0"
-       show_handles="0"
-       width="0.2"
-       force="0.2"
-       fidelity="0.5"
-       usepressure="1"
-       style="fill:red;stroke:none;"
-       usecurrent="0"
-       doh="1"
-       dos="1"
-       dol="1"
-       doo="1"
-       mode="0" />
-    <eventcontext
-       id="spray"
-       selcue="1"
-       gradientdrag="0"
-       usepressure="1"
-       width="15"
-       population="70"
-       mode="1"
-       rotation_variation="0"
-       scale_variation="0"
-       standard_deviation="70"
-       mean="0" />
-    <eventcontext
-       id="gradient"
-       selcue="1" />
-    <eventcontext
-       id="mesh"
-       selcue="1"
-       edit_fill="1"
-       edit_stroke="0" />
-    <eventcontext
-       id="zoom"
-       selcue="1"
-       gradientdrag="0" />
-    <eventcontext
-       id="dropper"
-       selcue="1"
-       gradientdrag="1"
-       pick="1"
-       setalpha="1" />
-    <eventcontext
-       id="select"
-       selcue="1"
-       gradientdrag="0" />
-    <eventcontext
-       id="connector"
-       style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
-       selcue="1"
-       curvature="0" />
-    <eventcontext
-       id="paintbucket"
-       style="fill:#a0a0a0;stroke:none;"
-       usecurrent="1" />
-    <group
-       id="measure"
-       fontsize="10" />
+    <eventcontext id="eraser" mode="1" style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;" mass="0.02" drag="1" angle="30" width="10" thinning="0.1" flatness="0.0" cap_rounding="1.4" usecurrent="0" tracebackground="0" usepressure="1" usetilt="0" selcue="1" />
+    <eventcontext id="lpetool" mode="0" style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;" unit="mm" show_bbox="1" />
+    <eventcontext id="text" usecurrent="0" gradientdrag="1" font_sample="AaBbCcIiPpQq12369$€¢?.;/()" show_sample_in_list="1" use_svg2="1" style="line-height:1.25;font-family:'Noto Color Emoji';font-size:40px;-inkscape-font-specification:'Noto Color Emoji'" selcue="1" align_mode="1">
+      <group id="lineheight" display_unit="1" />
+    </eventcontext>
+    <eventcontext id="nodes" selcue="1" gradientdrag="1" pathflash_enabled="1" pathflash_unselected="0" pathflash_timeout="500" show_handles="1" show_outline="1" sculpting_profile="1" single_node_transform_handles="0" show_transform_handles="1" live_outline="1" live_objects="1" show_helperpath="0" x="-392.075082827253" y="325.712053609607" edit_clipping_paths="1" edit_masks="0" />
+    <eventcontext id="tweak" selcue="0" gradientdrag="0" show_handles="0" width="0.2" force="0.2" fidelity="0.5" usepressure="1" style="fill:red;stroke:none;" usecurrent="0" doh="1" dos="1" dol="1" doo="1" />
+    <eventcontext id="marker" selcue="1" gradientdrag="1" />
+    <eventcontext id="gradient" selcue="1" newgradient="1" />
+    <eventcontext id="spray" selcue="1" gradientdrag="0" usepressure="1" width="15" population="70" mode="1" rotation_variation="0" scale_variation="0" standard_deviation="70" mean="0" />
+    <eventcontext id="mesh" selcue="1" />
+    <eventcontext id="zoom" selcue="1" gradientdrag="0" />
+    <eventcontext id="dropper" selcue="1" gradientdrag="1" pick="1" setalpha="1" />
+    <eventcontext id="connector" style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;" selcue="1" curvature="0" />
+    <eventcontext id="paintbucket" style="fill:#a0a0a0;stroke:none;" usecurrent="1" threshold="1" channels="3" />
+    <eventcontext id="select" selcue="1" gradientdrag="0" touch_box="0" />
+    <group id="geometric" mode="drag" />
+    <group id="measure">
+      <group id="measure-start" x="772.857421875" y="921.787109375" />
+      <group id="measure-end" x="772.857421875" y="926.513671875" />
+    </group>
+    <group id="booleans" mode="1" />
   </group>
-  <group
-     id="palette">
-    <group
-       id="dashes">
-      <dash
-         id="solid"
-         style="stroke-dasharray:none" />
-      <dash
-         id="dash-1-1"
-         style="stroke-dasharray:1,1" />
-      <dash
-         id="dash-1-2"
-         style="stroke-dasharray:1,2" />
-      <dash
-         id="dash-1-3"
-         style="stroke-dasharray:1,3" />
-      <dash
-         id="dash-1-4"
-         style="stroke-dasharray:1,4" />
-      <dash
-         id="dash-1-6"
-         style="stroke-dasharray:1,6" />
-      <dash
-         id="dash-1-8"
-         style="stroke-dasharray:1,8" />
-      <dash
-         id="dash-1-12"
-         style="stroke-dasharray:1,12" />
-      <dash
-         id="dash-1-24"
-         style="stroke-dasharray:1,24" />
-      <dash
-         id="dash-1-48"
-         style="stroke-dasharray:1,48" />
-      <dash
-         id="dash-empty"
-         style="stroke-dasharray:0 11" />
-      <dash
-         id="dash-2-1"
-         style="stroke-dasharray:2,1" />
-      <dash
-         id="dash-3-1"
-         style="stroke-dasharray:3,1" />
-      <dash
-         id="dash-4-1"
-         style="stroke-dasharray:4,1" />
-      <dash
-         id="dash-6-1"
-         style="stroke-dasharray:6,1" />
-      <dash
-         id="dash-8-1"
-         style="stroke-dasharray:8,1" />
-      <dash
-         id="dash-12-1"
-         style="stroke-dasharray:12,1" />
-      <dash
-         id="dash-24-1"
-         style="stroke-dasharray:24,1" />
-      <dash
-         id="dash-2-2"
-         style="stroke-dasharray:2,2" />
-      <dash
-         id="dash-3-3"
-         style="stroke-dasharray:3,3" />
-      <dash
-         id="dash-4-4"
-         style="stroke-dasharray:4,4" />
-      <dash
-         id="dash-6-6"
-         style="stroke-dasharray:6,6" />
-      <dash
-         id="dash-8-8"
-         style="stroke-dasharray:8,8" />
-      <dash
-         id="dash-12-12"
-         style="stroke-dasharray:12,12" />
-      <dash
-         id="dash-24-24"
-         style="stroke-dasharray:24,24" />
-      <dash
-         id="dash-2-4"
-         style="stroke-dasharray:2,4" />
-      <dash
-         id="dash-4-2"
-         style="stroke-dasharray:4,2" />
-      <dash
-         id="dash-2-6"
-         style="stroke-dasharray:2,6" />
-      <dash
-         id="dash-6-2"
-         style="stroke-dasharray:6,2" />
-      <dash
-         id="dash-4-8"
-         style="stroke-dasharray:4,8" />
-      <dash
-         id="dash-8-4"
-         style="stroke-dasharray:8,4" />
-      <dash
-         id="dash-2-1-012-1"
-         style="stroke-dasharray:2,1,0.5,1" />
-      <dash
-         id="dash-4-2-1-2"
-         style="stroke-dasharray:4,2,1,2" />
-      <dash
-         id="dash-8-2-1-2"
-         style="stroke-dasharray:8,2,1,2" />
-      <dash
-         id="dash-012-012"
-         style="stroke-dasharray:0.5,0.5" />
-      <dash
-         id="dash-014-014"
-         style="stroke-dasharray:0.25,0.25" />
-      <dash
-         id="dash-0110-0110"
-         style="stroke-dasharray:0.1,0.1" />
+  <group id="palette">
+    <group id="dashes">
+      <dash id="solid" style="stroke-dasharray:none" />
+      <dash id="dash-1-1" style="stroke-dasharray:1,1" />
+      <dash id="dash-1-2" style="stroke-dasharray:1,2" />
+      <dash id="dash-1-3" style="stroke-dasharray:1,3" />
+      <dash id="dash-1-4" style="stroke-dasharray:1,4" />
+      <dash id="dash-1-6" style="stroke-dasharray:1,6" />
+      <dash id="dash-1-8" style="stroke-dasharray:1,8" />
+      <dash id="dash-1-12" style="stroke-dasharray:1,12" />
+      <dash id="dash-1-24" style="stroke-dasharray:1,24" />
+      <dash id="dash-1-48" style="stroke-dasharray:1,48" />
+      <dash id="dash-empty" style="stroke-dasharray:0 11" />
+      <dash id="dash-2-1" style="stroke-dasharray:2,1" />
+      <dash id="dash-3-1" style="stroke-dasharray:3,1" />
+      <dash id="dash-4-1" style="stroke-dasharray:4,1" />
+      <dash id="dash-6-1" style="stroke-dasharray:6,1" />
+      <dash id="dash-8-1" style="stroke-dasharray:8,1" />
+      <dash id="dash-12-1" style="stroke-dasharray:12,1" />
+      <dash id="dash-24-1" style="stroke-dasharray:24,1" />
+      <dash id="dash-2-2" style="stroke-dasharray:2,2" />
+      <dash id="dash-3-3" style="stroke-dasharray:3,3" />
+      <dash id="dash-4-4" style="stroke-dasharray:4,4" />
+      <dash id="dash-6-6" style="stroke-dasharray:6,6" />
+      <dash id="dash-8-8" style="stroke-dasharray:8,8" />
+      <dash id="dash-12-12" style="stroke-dasharray:12,12" />
+      <dash id="dash-24-24" style="stroke-dasharray:24,24" />
+      <dash id="dash-2-4" style="stroke-dasharray:2,4" />
+      <dash id="dash-4-2" style="stroke-dasharray:4,2" />
+      <dash id="dash-2-6" style="stroke-dasharray:2,6" />
+      <dash id="dash-6-2" style="stroke-dasharray:6,2" />
+      <dash id="dash-4-8" style="stroke-dasharray:4,8" />
+      <dash id="dash-8-4" style="stroke-dasharray:8,4" />
+      <dash id="dash-2-1-012-1" style="stroke-dasharray:2,1,0.5,1" />
+      <dash id="dash-4-2-1-2" style="stroke-dasharray:4,2,1,2" />
+      <dash id="dash-8-2-1-2" style="stroke-dasharray:8,2,1,2" />
+      <dash id="dash-012-012" style="stroke-dasharray:0.5,0.5" />
+      <dash id="dash-014-014" style="stroke-dasharray:0.25,0.25" />
+      <dash id="dash-0110-0110" style="stroke-dasharray:0.1,0.1" />
     </group>
   </group>
-  <group
-     id="colorselector"
-     page="0" />
-  <group
-     id="embedded">
-    <group
-       id="swatches"
-       panel_size="0"
-       panel_mode="1"
-       panel_ratio="0"
-       panel_wrap="0"
-       palette="GNOME HIG Colors"
-       panel_border="0" />
+  <group id="colorselector" page="2" switcher="1">
+    <group id="RGB" visible="1" />
+    <group id="HSL" visible="1" />
+    <group id="CMYK" visible="1" />
+    <group id="HSV" visible="1" />
+    <group id="HSLuv" visible="1" />
+    <group id="OKLAB" visible="1" />
+    <group id="OKHSL" visible="1" />
+    <group id="CMS" visible="1" />
   </group>
-  <group
-     id="dialogs">
-    <group
-       id="toolbox" />
-    <group
-       id="fillstroke"
-       page="1" />
-    <group
-       id="filtereffects" />
-    <group
-       id="textandfont" />
-    <group
-       id="transformation"
-       applyseparately="0" />
-    <group
-       id="align"
-       align-to="0" />
-    <group
-       id="xml"
-       h="500"
-       w="300" />
-    <group
-       id="find" />
-    <group
-       id="spellcheck"
-       w="200"
-       h="250"
-       ignorenumbers="1" />
-    <group
-       id="documentoptions"
-       state="1" />
-    <group
-       id="preferences"
-       state="1"
-       page="24" />
-    <group
-       id="gradienteditor" />
-    <group
-       id="object" />
-    <group
-       id="export"
-       default=""
-       append_extension="1"
-       path="">
-      <group
-         id="exportarea"
-         value="page" />
-      <group
-         id="defaultxdpi" />
+  <group id="embedded">
+    <group id="swatches" panel_size="0" panel_mode="1" panel_ratio="0" panel_wrap="0" palette="GNOME HIG Colors" panel_border="0" tile_size="26" tile_aspect="0" tile_border="0" rows="1" tile_stretch="1" enlarge_fixed="0" enlarge_pinned="0" show_labels="0">
+      <group id="pinned" none="1" rgb000000="1" black="1" rgb808080="1" gray-50="1" rgbffffff="1" white="1" />
     </group>
-    <group
-       id="save_as"
-       default="org.inkscape.output.svg.inkscape"
-       append_extension="1"
-       enable_preview="1"
-       path="/home/kushagra"
-       use_current_dir="1" />
-    <group
-       id="save_copy"
-       default=""
-       append_extension="1"
-       enable_preview="1"
-       path="" />
-    <group
-       id="open"
-       enable_preview="1"
-       path="" />
-    <group
-       id="import"
-       enable_preview="1"
-       path="/home/kushagra/Projects/design/Logo/Anetos/"
-       ask="0"
-       ask_svg="0"
-       link="embed"
-       scale="auto"
-       import_mode_svg="include"
-       forcexdpi="0" />
-    <group
-       id="debug"
-       redirect="0" />
-    <group
-       id="clonetiler"
-       dotrace="0" />
-    <group
-       id="gridtiler" />
-    <group
-       id="extension-error"
-       show-on-startup="0" />
-    <group
-       id="memory" />
-    <group
-       id="messages" />
-    <group
-       id="swatches" />
-    <group
-       id="iconpreview" />
-    <group
-       id="aboutextensions" />
-    <group
-       id="treeeditor" />
-    <group
-       id="layers"
-       maxDepth="20"
-       w="200"
-       h="300" />
-    <group
-       id="trace"
-       state="1" />
-    <group
-       id="script" />
-    <group
-       id="input" />
-    <group
-       id="colorpickerwindow" />
-    <group
-       id="undo-history" />
   </group>
-  <group
-     id="printing">
-    <settings
-       id="ps" />
-    <group
-       id="debug"
-       add-label-comments="0" />
-  </group>
-  <group
-     id="options"
-     onimport="0">
-    <group
-       id="renderingcache"
-       size="512" />
-    <group
-       id="useoldpdfexporter"
-       value="0" />
-    <group
-       id="highlightoriginal"
-       value="1" />
-    <group
-       id="relinkclonesonduplicate"
-       value="0" />
-    <group
-       id="mapalt"
-       value="1" />
-    <group
-       id="trackalt"
-       value="0" />
-    <group
-       id="switchonextinput"
-       value="0" />
-    <group
-       id="useextinput"
-       value="1" />
-    <group
-       id="nudgedistance"
-       value="2px" />
-    <group
-       id="rotationsnapsperpi"
-       value="12" />
-    <group
-       id="cursortolerance"
-       value="8.0" />
-    <group
-       id="dragtolerance"
-       value="4.0" />
-    <group
-       id="grabsize"
-       value="3" />
-    <group
-       id="displayprofile"
-       enable="0"
-       from_display="0"
-       intent="0"
-       uri="" />
-    <group
-       id="softproof"
-       enable="0"
-       intent="0"
-       gamutcolor="#808080"
-       gamutwarn="0"
-       bpc="0"
-       preserveblack="0"
-       uri="" />
-    <group
-       id="savewindowgeometry"
-       value="1" />
-    <group
-       id="defaultoffsetwidth"
-       value="2px" />
-    <group
-       id="defaultscale"
-       value="2px" />
-    <group
-       id="maxrecentdocuments"
-       value="36" />
-    <group
-       id="zoomincrement"
-       value="1.414213562" />
-    <group
-       id="zoomcorrection"
-       value="0.9574"
-       unit="mm" />
-    <group
-       id="keyscroll"
-       value="15" />
-    <group
-       id="wheelscroll"
-       value="40" />
-    <group
-       id="spacebarpans"
-       value="1" />
-    <group
-       id="transientpolicy"
-       value="1" />
-    <group
-       id="scrollingacceleration"
-       value="0.4" />
-    <group
-       id="snapdelay"
-       value="0" />
-    <group
-       id="snapweight"
-       value="0.5" />
-    <group
-       id="snapclosestonly"
-       value="0" />
-    <group
-       id="snapindicator"
-       value="1" />
-    <group
-       id="autoscrollspeed"
-       value="0.7" />
-    <group
-       id="autoscrolldistance"
-       value="-10" />
-    <group
-       id="simplifythreshold"
-       value="0.002" />
-    <group
-       id="bitmapeditor"
-       value="gimp" />
-    <group
-       id="svgeditor"
-       value="inkscape" />
-    <group
-       id="bitmapautoreload"
-       value="1" />
-    <group
-       id="dialogtype"
-       value="1" />
-    <group
-       id="dock"
-       cancenterdock="1"
-       dockbarstyle="2"
-       switcherstyle="2" />
-    <group
-       id="dialogsskiptaskbar"
-       value="1" />
-    <group
-       id="defaultwindowsize"
-       value="2" />
-    <group
-       id="arenatilescachesize"
-       value="8192" />
-    <group
-       id="preservetransform"
-       value="0" />
-    <group
-       id="clonecompensation"
-       value="1" />
-    <group
-       id="cloneorphans"
-       value="0" />
-    <group
-       id="stickyzoom"
-       value="1" />
-    <group
-       id="selcue"
-       value="2" />
-    <group
-       id="transform"
-       stroke="1"
-       rectcorners="1"
-       pattern="1"
-       gradient="1" />
-    <group
-       id="dash"
-       scale="1" />
-    <group
-       id="kbselection"
-       inlayer="1"
-       onlyvisible="1"
-       onlysensitive="1" />
-    <group
-       id="selection"
-       layerdeselect="1" />
-    <group
-       id="createbitmap" />
-    <group
-       id="compassangledisplay"
-       value="0" />
-    <group
-       id="middlemousezoom"
-       value="1" />
-    <group
-       id="maskobject"
-       topmost="1"
-       remove="1" />
-    <group
-       id="blurquality"
-       value="0" />
-    <group
-       id="filterquality"
-       value="1" />
-    <group
-       id="showfiltersinfobox"
-       value="1" />
-    <group
-       id="startmode"
-       outline="0" />
-    <group
-       id="outlinemode"
-       value="0" />
-    <group
-       id="wireframecolors"
-       onlight="255"
-       ondark="4294967295"
-       images="4278190335"
-       clips="16711935"
-       masks="65535" />
-    <group
-       id="svgoutput"
-       disable_optimizations="0"
-       usenamedcolors="0"
-       numericprecision="8"
-       minimumexponent="-8"
-       inlineattrs="0"
-       indent="2"
-       pathstring_format="2"
-       forcerepeatcommands="0"
-       incorrect_attributes_warn="1"
-       incorrect_attributes_remove="0"
-       incorrect_style_properties_warn="1"
-       incorrect_style_properties_remove="0"
-       style_defaults_warn="1"
-       style_defaults_remove="0"
-       check_on_reading="0"
-       check_on_editing="0"
-       check_on_writing="0"
-       sort_attributes="0" />
-    <group
-       id="externalresources">
-      <group
-         id="xml"
-         allow_net_access="0" />
+  <group id="dialogs" traceliveUpdate="1">
+    <group id="toolbox" />
+    <group id="fillstroke" page="1" />
+    <group id="filtereffects" />
+    <group id="textandfont" />
+    <group id="transformation" applyseparately="0" />
+    <group id="align" align-to="0" objects-align-to="last" />
+    <group id="xml" h="500" w="300" mono-font="1" />
+    <group id="find" />
+    <group id="spellcheck" w="200" h="250" ignorenumbers="1" />
+    <group id="documentoptions" state="1" />
+    <group id="preferences" state="1" page="44" />
+    <group id="gradienteditor" />
+    <group id="object" />
+    <group id="export" default="" append_extension="1" path="" defaultopts="1">
+      <group id="exportarea" value="selection" />
+      <group id="defaultxdpi" value="300" />
+      <group id="batchexportarea" value="layer" />
+      <group id="defaultdpi" value="300.200012207031" />
     </group>
-    <group
-       id="forkgradientvectors"
-       value="1" />
-    <group
-       id="iconrender"
-       named_nodelay="1" />
-    <group
-       id="autosave"
-       enable="1"
-       interval="10"
-       path=""
-       max="10" />
-    <group
-       id="grids"
-       no_emphasize_when_zoomedout="0">
-      <group
-         id="xy"
-         units="px"
-         origin_x="0.0"
-         origin_y="0.0"
-         spacing_x="1.0"
-         spacing_y="1.0"
-         empspacing="5"
-         dotted="0" />
-      <group
-         id="axonom"
-         units="mm"
-         origin_x="0.0"
-         origin_y="0.0"
-         spacing_y="1.0"
-         angle_x="30.0"
-         angle_z="30.0"
-         empspacing="5" />
+    <group id="save_as" default="org.inkscape.output.svg.inkscape" append_extension="1" enable_preview="1" path="/home/kushagra/Projects/kushagrakarira.github.io" use_current_dir="1" />
+    <group id="save_copy" default="org.inkscape.output.svg.inkscape" append_extension="1" enable_preview="1" path="/home/kushagra/Projects/DejaView/Certificate" />
+    <group id="open" enable_preview="1" path="/home/kushagra/Projects/Design/Anetos/" />
+    <group id="import" enable_preview="1" path="/home/kushagra/Downloads/" ask="0" ask_svg="0" link="embed" scale="auto" forcexdpi="0" import_mode_svg="include" />
+    <group id="debug" redirect="0" />
+    <group id="clonetiler" dotrace="0" />
+    <group id="gridtiler" SpacingType="20" />
+    <group id="extension-error" show-on-startup="0" />
+    <group id="memory" />
+    <group id="messages" />
+    <group id="swatches" palette="Auto" />
+    <group id="iconpreview" />
+    <group id="aboutextensions" />
+    <group id="treeeditor" />
+    <group id="layers" maxDepth="20" w="200" h="300" />
+    <group id="trace" state="1" />
+    <group id="script" />
+    <group id="input" />
+    <group id="colorpickerwindow" />
+    <group id="undo-history" />
+    <group id="objects" layers_only="1" />
+    <group id="layerProp" addLayerPosition="0" />
+    <group id="printing" asbitmap="0" />
+  </group>
+  <group id="printing">
+    <settings id="ps" />
+    <group id="debug" add-label-comments="0" />
+  </group>
+  <group id="options" rotationlock="1" onimport="0" onungroup="0" displaymode="0">
+    <group id="renderingcache" size="4096" />
+    <group id="useoldpdfexporter" value="0" />
+    <group id="highlightoriginal" value="1" />
+    <group id="relinkclonesonduplicate" value="0" />
+    <group id="mapalt" value="1" />
+    <group id="trackalt" value="0" />
+    <group id="switchonextinput" value="0" />
+    <group id="useextinput" value="0" />
+    <group id="nudgedistance" value="2px" />
+    <group id="rotationsnapsperpi" value="12" />
+    <group id="cursortolerance" value="8.0" />
+    <group id="dragtolerance" value="4.0" />
+    <group id="grabsize" value="3" />
+    <group id="displayprofile" enable="0" from_display="1" intent="0" uri="/var/lib/colord/icc/edid-539f20194a67a65152f6ded68cbb46ae.icc" />
+    <group id="softproof" enable="0" intent="0" gamutcolor="#808080" gamutwarn="0" bpc="0" preserveblack="0" uri="" />
+    <group id="savewindowgeometry" value="1" />
+    <group id="defaultoffsetwidth" value="2px" />
+    <group id="defaultscale" value="2px" />
+    <group id="maxrecentdocuments" value="36" />
+    <group id="zoomincrement" value="1.414213562" />
+    <group id="zoomcorrection" value="1" unit="mm" />
+    <group id="keyscroll" value="15" />
+    <group id="wheelscroll" value="40" />
+    <group id="spacebarpans" value="1" />
+    <group id="transientpolicy" value="0" />
+    <group id="scrollingacceleration" value="0.4" />
+    <group id="snapdelay" value="0" />
+    <group id="snapweight" value="0.5" />
+    <group id="snapclosestonly" value="0" />
+    <group id="snapindicator" value="1" />
+    <group id="autoscrollspeed" value="0.7" />
+    <group id="autoscrolldistance" value="-10" />
+    <group id="simplifythreshold" value="0.002" />
+    <group id="bitmapeditor" value="gimp" />
+    <group id="svgeditor" value="inkscape" />
+    <group id="bitmapautoreload" value="1" />
+    <group id="dialogtype" value="1" />
+    <group id="dock" cancenterdock="1" dockbarstyle="2" switcherstyle="2" />
+    <group id="dialogsskiptaskbar" value="1" />
+    <group id="defaultwindowsize" value="2" />
+    <group id="arenatilescachesize" value="8192" />
+    <group id="preservetransform" value="0" />
+    <group id="clonecompensation" value="1" />
+    <group id="cloneorphans" value="0" />
+    <group id="stickyzoom" value="1" />
+    <group id="selcue" value="2" />
+    <group id="transform" stroke="1" rectcorners="1" pattern="1" gradient="1" />
+    <group id="dash" scale="1" />
+    <group id="kbselection" inlayer="1" onlyvisible="1" onlysensitive="1" />
+    <group id="selection" layerdeselect="1" />
+    <group id="createbitmap" />
+    <group id="compassangledisplay" value="0" />
+    <group id="middlemousezoom" value="1" />
+    <group id="maskobject" topmost="1" remove="1" grouping="0" />
+    <group id="blurquality" value="0" />
+    <group id="filterquality" value="0" />
+    <group id="showfiltersinfobox" value="1" />
+    <group id="startmode" outline="0" />
+    <group id="outlinemode" value="0" />
+    <group id="wireframecolors" onlight="255" ondark="4294967295" images="4278190335" clips="16711935" masks="65535" />
+    <group id="svgoutput" disable_optimizations="0" usenamedcolors="0" numericprecision="16" minimumexponent="-16" inlineattrs="1" indent="2" pathstring_format="0" forcerepeatcommands="1" incorrect_attributes_warn="1" incorrect_attributes_remove="0" incorrect_style_properties_warn="1" incorrect_style_properties_remove="0" style_defaults_warn="1" style_defaults_remove="0" check_on_reading="1" check_on_editing="1" check_on_writing="1" sort_attributes="0" />
+    <group id="externalresources">
+      <group id="xml" allow_net_access="0" />
     </group>
-    <group
-       id="workarounds"
-       colorsontop="0"
-       partialdynamic="0" />
-    <group
-       id="boot"
-       theme="symbolic"
-       enabled="0">
-      <group
-         id="shown"
-         ver1.1.1="1" />
+    <group id="forkgradientvectors" value="1" />
+    <group id="iconrender" named_nodelay="0" />
+    <group id="autosave" enable="1" interval="10" path="" max="10" />
+    <group id="grids" no_emphasize_when_zoomedout="0">
+      <group id="xy" units="px" origin_x="0.0" origin_y="0.0" spacing_x="1.0" spacing_y="1.0" empspacing="5" dotted="0" />
+      <group id="axonom" units="mm" origin_x="0.0" origin_y="0.0" spacing_y="1.0" angle_x="30.0" angle_z="30.0" empspacing="5" />
     </group>
-    <group
-       id="rendering" />
-    <group
-       id="cleanupswatches"
-       value="1" />
-    <group
-       id="threading"
-       numthreads="8" />
-    <group
-       id="font"
-       unitType="2" />
+    <group id="workarounds" colorsontop="1" partialdynamic="0" />
+    <group id="rendering" devmode="1" tile-multiplier="512" xray-radius="150" outline-overlay-opacity="50" />
+    <group id="font" unitType="2" substitutedlg="0" custom_fontdirs="/home/kushagra/.local/share/fonts" />
+    <group id="boot" theme="custom" enabled="0">
+      <group id="shown" ver1.1.1="1" ver1.1.2="1" />
+    </group>
+    <group id="snapping" snap-global-toggle="1" snap-bbox="1" snap-bbox-edge="1" snap-bbox-corner="1" snap-bbox-edge-midpoint="1" snap-bbox-center="1" simple-snap-bbox="1" snap-others="1" snap-object-midpoint="1" snap-rotation-center="1" snap-text-baseline="1" snap-path-mask="1" snap-path-clip="1" snap-page-border="1" snap-grid="1" snap-guide="1" snap-node-category="1" snap-path="1" snap-path-intersection="1" snap-node-cusp="1" snap-node-smooth="1" snap-line-midpoint="1" snap-line-tangential="1" snap-line-perpendicular="1" simple-snap-nodes="1" snap-alignment="1" snap-alignment-self="1" snap-distribution="1" simple-snap-alignment="0" snap-page-margin="1" />
+    <group id="svgexport" marker_contextpaint="0" text_insertfallback="0" mesh_insertpolyfill="0" hatch_insertpolyfill="0" />
+    <group id="threading" numthreads="32" />
+    <group id="ruler" />
+    <group id="commandpalette">
+      <group id="showfullactionname" value="1" />
+      <group id="showuntranslatedname" value="1" />
+    </group>
   </group>
-  <group
-     id="extensions"
-     org.inkscape.input.svg.scale="auto"
-     org.inkscape.input.svg.do_not_ask="1"
-     org.inkscape.input.gdkpixbuf.jpg.do_not_ask="1" />
-  <group
-     id="desktop"
-     style="fill:none;stroke-width:86.92913386;-inkscape-font-specification:'Inter Medium';font-family:Inter;font-weight:500;font-size:42.66666667px;stroke:#000000;stroke-linecap:round">
-    <group
-       width="640"
-       height="480"
-       x="0"
-       y="0"
-       maximized="1"
-       fullscreen="0"
-       id="geometry" />
-    <group
-       id="XYfront" />
-    <group
-       id="XYrear" />
-    <group
-       id="XZtop" />
-    <group
-       id="XZbottom" />
-    <group
-       id="YZleft" />
-    <group
-       id="YZright" />
+  <group id="extensions" org.inkscape.output.png.inkscape.png_bitdepth="99" org.inkscape.output.png.inkscape.png_compression="6" org.inkscape.output.png.inkscape.png_antialias="2" org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5" org.inkscape.input.gdkpixbuf.jpg.do_not_ask="1" org.inkscape.raster.jpg_output.tab="options" org.inkscape.output.pdf.cairorenderer.textToPath="embed" org.inkscape.input.svg.scale="auto" org.inkscape.input.svg.do_not_ask="1" org.inkscape.qr_code.typenumber="0" org.inkscape.qr_code.correctionlevel="2" org.inkscape.qr_code.encoding="utf_8" org.inkscape.qr_code.drawtype="pathpreset" org.inkscape.input.dxf_input.encoding="latin_1" org.ekips.output.dxf_outlines.units="25.4/96" org.ekips.output.dxf_outlines.encoding="utf_8" org.ekips.output.dxf_outlines.layer_option="all" org.ekips.output.dxf_outlines.ROBO="1" org.inkscape.qr_code.qrmode="0" org.inkscape.qr_code.smoothness="neutral" org.inkscape.render.barcode.type="Code39Ext" org.inkscape.qr_code.pathtype="circle" org.inkscape.output.scour_inkscape.indent="none" org.inkscape.output.scour_inkscape.tab="Output" org.inkscape.output.scour_inkscape.embed-rasters="0" org.inkscape.output.scour_inkscape.strip-xml-prolog="1" org.inkscape.output.scour_inkscape.remove-metadata="1" org.inkscape.output.scour_inkscape.enable-comment-stripping="1" org.inkscape.output.scour_inkscape.strip-xml-space="1" org.inkscape.output.scour_inkscape.nindent="0" org.inkscape.output.scour_inkscape.shorten-ids="1" org.inkscape.output.scour_inkscape.set-precision="3" org.inkscape.output.emf.UsePUA="1" org.inkscape.output.emf.FixPPTCharPos="1" org.inkscape.output.emf.FixPPTDashLine="1" org.inkscape.output.emf.FixPPTGrad2Polys="1" org.inkscape.output.emf.FixPPTLinGrad="1" org.inkscape.output.emf.FixPPTPatternAsHatch="1" org.inkscape.output.emf.FixImageRot="1" org.inkscape.print.emf.FixPPTCharPos="1" org.inkscape.print.emf.FixPPTDashLine="1" org.inkscape.print.emf.FixPPTGrad2Polys="1" org.inkscape.print.emf.FixPPTLinGrad="1" org.inkscape.print.emf.FixPPTPatternAsHatch="1" org.inkscape.print.emf.FixImageRot="1" org.inkscape.print.emf.textToPath="1" org.inkscape.render.calendar.start-day="sun" org.inkscape.render.calendar.weekend="sat+sun" org.inkscape.render.calendar.encoding="utf_32" org.inkscape.render.calendar.year="2023" org.ekips.filter.turtle_rtree.__live_effect__="0" org.ekips.filter.turtle_rtree.size="100.2" org.ekips.filter.turtle_rtree.minimum="41" org.inkscape.generate.printing_marks.where="canvas" org.inkscape.generate.printing_marks.unit="px" org.inkscape.generate.printing_marks.star_target="1" org.inkscape.generate.printing_marks.page_info="1" org.inkscape.generate.printing_marks.bleed_marks="1" org.inkscape.generate.printing_marks.tab="pos" org.inkscape.filter.alphabet_soup.__live_effect__="0" org.inkscape.render.barcode.text="197328" org.inkscape.render.barcode.__live_effect__="0" org.inkscape.render.barcode.height="30" org.inkscape.qr_code.__live_effect__="0" org.inkscape.qr_code.modulesize="3" org.inkscape.output.pdf.cairorenderer.area="page" org.inkscape.output.pdf.cairorenderer.blurToBitmap="0" org.inkscape.template.paper.max="42" org.inkscape.template.paper.min="30" org.inkscape.template.paper.unit="in" org.inkscape.template.paper.orientation="land" org.inkscape.template.video.height="4320" org.inkscape.template.video.unit="px" org.inkscape.template.video.width="7680" org.inkscape.template.social.height="720" org.inkscape.template.social.unit="px" org.inkscape.template.social.width="720" org.inkscape.template.digital.height="768" org.inkscape.template.digital.unit="px" org.inkscape.template.digital.width="1024" org.inkscape.template.other.size="512" org.inkscape.template.other.unit="px" org.inkscape.output.scour_inkscape.style-to-xml="1" org.inkscape.output.scour_inkscape.line-breaks="0" org.inkscape.input.eps.autorotate="All" org.ekips.output.dxf_outlines.tab="options" org.inkscape.qr_code.text="www.xnxx.com" org.inkscape.print.eps.cairo.PSlevel="PS3" org.inkscape.render.calendar.tab="config" org.inkscape.render.calendar.__live_effect__="0" org.inkscape.render.calendar.font-year="Inter" org.inkscape.render.calendar.font-month="Inter" org.inkscape.render.calendar.font-day-name="Inter" org.inkscape.render.calendar.font-day="Inter" org.inkscape.render.calendar.auto-organize="0" org.inkscape.render.calendar.fill-empty-day-boxes="0" />
+  <group id="desktop" style="-inkscape-font-specification:Inter;font-family:Inter;font-size:74.6666666667px;paint-order:stroke fill markers;line-height:normal;text-decoration-color:#000000;stop-color:#000000;text-align:center;fill:#000000;stroke-width:75.5905511811;text-anchor:middle;stroke-linecap:round;stroke-linejoin:round">
+    <group width="1366" height="699" x="0" y="0" maximized="1" fullscreen="0" id="geometry" />
+    <group id="XYfront" />
+    <group id="XYrear" />
+    <group id="XZtop" />
+    <group id="XZbottom" />
+    <group id="YZleft" />
+    <group id="YZright" />
   </group>
-  <group
-     id="devices" />
-  <group
-     id="toolbox"
-     icononly="1"
-     secondary="1"
-     small="1">
-    <group
-       id="tools"
-       icononly="1"
-       small="1" />
+  <group id="devices" />
+  <group id="toolbox" icononly="1" secondary="1" simplesnap="0" small="1">
+    <group id="tools" icononly="1" small="1" iconsize="16" width="31">
+      <group id="buttons" showNode="1" />
+    </group>
+    <group id="controlbars" iconsize="16" />
   </group>
-  <group
-     id="iconpreview"
-     autoRefresh="1"
-     pack="1"
-     selectionHold="1"
-     showFrames="1"
-     selectionOnly="0">
-    <group
-       id="sizes">
-      <group
-         id="default">
-        <group
-           value="16"
-           show="1"
-           id="size16" />
-        <group
-           value="22"
-           show="0"
-           id="size22" />
-        <group
-           value="24"
-           show="1"
-           id="size24" />
-        <group
-           value="32"
-           show="1"
-           id="size32" />
-        <group
-           value="48"
-           show="1"
-           id="size48" />
-        <group
-           value="50"
-           show="0"
-           id="size50" />
-        <group
-           value="64"
-           show="0"
-           id="size64" />
-        <group
-           value="72"
-           show="0"
-           id="size72" />
-        <group
-           value="80"
-           show="0"
-           id="size80" />
-        <group
-           value="96"
-           show="0"
-           id="size96" />
-        <group
-           value="128"
-           show="1"
-           id="size128" />
-        <group
-           value="256"
-           show="0"
-           id="size256" />
+  <group id="statusbar">
+    <group id="visibility" />
+  </group>
+  <group id="debug">
+    <group id="latency" skew="1" />
+  </group>
+  <group id="iconpreview" autoRefresh="1" pack="1" selectionHold="1" showFrames="1" selectionOnly="0">
+    <group id="sizes">
+      <group id="default">
+        <group value="16" show="1" id="size16" />
+        <group value="22" show="0" id="size22" />
+        <group value="24" show="1" id="size24" />
+        <group value="32" show="1" id="size32" />
+        <group value="48" show="1" id="size48" />
+        <group value="50" show="0" id="size50" />
+        <group value="64" show="0" id="size64" />
+        <group value="72" show="0" id="size72" />
+        <group value="80" show="0" id="size80" />
+        <group value="96" show="0" id="size96" />
+        <group value="128" show="1" id="size128" />
+        <group value="256" show="0" id="size256" />
       </group>
     </group>
   </group>
-  <group
-     id="debug">
-    <group
-       id="latency"
-       skew="1" />
+  <group id="theme" defaultPreferDarkTheme="0" defaultIconTheme="MoreWaita" defaultGtkTheme="adw-gtk3-dark" narrowSpinButton="1" preferDarkTheme="1" darkTheme="1" symbolicIcons="1" symbolicDefaultBaseColors="1" symbolicDefaultHighColors="1" menuIcons_canvas="0" menuIcons_layers="0" menuIcons_objects="0" menuIcons="1" syntax-color-theme="Flat-Remix-Dark">
+    <group id="Adwaita" symbolicBaseColor="4294967295" symbolicSuccessColor="4294967295" symbolicWarningColor="4294967295" symbolicErrorColor="4294967295" />
+    <group id="hicolor" symbolicBaseColor="4294967295" symbolicSuccessColor="4294967295" symbolicWarningColor="4294967295" symbolicErrorColor="4294967295" />
+    <group id="multicolor" symbolicBaseColor="3958107135" symbolicSuccessColor="180295167" symbolicWarningColor="4279865599" symbolicErrorColor="10086143" />
+    <group id="MoreWaita" symbolicBaseColor="4294967295" symbolicSuccessColor="4294967295" symbolicWarningColor="4294967295" symbolicErrorColor="4294967295" />
   </group>
-  <group
-     id="ui"
-     language="" />
-  <group
-     id="theme"
-     defaultPreferDarkTheme="0"
-     defaultGtkTheme="Adwaita-dark"
-     defaultIconTheme="Adwaita"
-     symbolicIcons="1"
-     preferDarkTheme="1"
-     darkTheme="1"
-     symbolicDefaultBaseColors="1"
-     symbolicDefaultHighColors="1"
-     menuIcons_canvas="0"
-     menuIcons_layers="0"
-     menuIcons_objects="0"
-     gtkTheme="Adwaita"
-     iconTheme="hicolor">
-    <group
-       id="multicolor"
-       symbolicBaseColor="3958107135"
-       symbolicSuccessColor="10029823"
-       symbolicWarningColor="4279865599"
-       symbolicErrorColor="10086143" />
-    <group
-       id="Adwaita"
-       symbolicBaseColor="4008635647"
-       symbolicSuccessColor="648766207"
-       symbolicWarningColor="4118348031"
-       symbolicErrorColor="3422552319" />
-    <group
-       id="hicolor"
-       symbolicBaseColor="4008635647"
-       symbolicSuccessColor="10029823"
-       symbolicWarningColor="4279865599"
-       symbolicErrorColor="10086143" />
+  <group id="ui" language="">
+    <group id="mono-font" desc="Monospace 13" />
   </group>
-  <group
-     id="live_effects"
-     flattening="0" />
+  <group id="live_effects" flattening="0" />
+  <group id="gradient-edit" stoplist="1" />
+  <group id="pattern-edit" currentSet="0" handlePos="46" showLabels="1" tileSize="30" />
+  <group id="color_scales" wheel_vis_hsluv="1" wheel_vis_hsl="1" wheel_vis_hsv="1" />
+  <group id="metadata">
+    <group id="rdf" creator="Kushagra Karira" />
+  </group>
 </inkscape>
